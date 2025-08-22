@@ -6,7 +6,6 @@ Each file demonstrates a different concept like loops, conditions, operators, et
 ## Programs List
 - for_cont_brk.c → For loop with continue and break
 - for_nested.c, for_nested2.c, for_nested3.c → Nested loop examples
-- inc_dec1.c, inc_dec2.c, inc_dec3.c → Increment/Decrement variations
 - leapyear.c → Leap year check
 - palindrome.c → Palindrome number check
 - second_largest.c → Find the second largest number
