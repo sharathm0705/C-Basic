@@ -1,3 +1,4 @@
+//1
 // #include <stdio.h>
 // int main(){
 //     int n=68;
@@ -11,7 +12,7 @@
 
 
 
-
+//2
 // #include <stdio.h>
 // int main(){
 //     int n=68;
@@ -24,6 +25,7 @@
 // }
 
 
+//3
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -35,6 +37,9 @@
 //     }
 // }
 
+
+
+//4
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -47,6 +52,8 @@
 // }
 
 
+
+//5
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -59,6 +66,8 @@
 // }
 
 
+
+//6
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -75,6 +84,8 @@
 // }
 
 
+
+//7
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -91,6 +102,8 @@
 // }
 
 
+
+//8
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -107,6 +120,9 @@
 // }
 
 
+
+
+//9
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -131,6 +147,10 @@
 //     }
 // }
 
+
+
+
+//10
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -147,6 +167,8 @@
 // }
 
 
+
+//11
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -174,6 +196,10 @@
 //     }
 // }
 
+
+
+
+//12
 // #include <stdio.h>
 // int main(){
 //     int n=4;
@@ -197,47 +223,53 @@
     //}
 
 
-#include <stdio.h>
-int main(){
-    int n=4;
-    for(int i=n;i>=1;i--){
-        for(int j=1;j<=i;j++){
-            printf("*");
-            
-        }
-        for(int k=1;k<=(n-i);k++){
-        printf(" ");}
-        for(int k=1;k<=(n-i);k++){
-        printf(" ");}
-        
-        
-        for(int j=1;j<=i;j++){
-            printf("*");
-            
-        
-    }printf("\n");
-    
-    
-    }for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            printf("*");
-            
-        }
-        for(int k=1;k<=(n-i);k++){
-        printf(" ");}
-        for(int k=1;k<=(n-i);k++){
-        printf(" ");}
-        
-        
-        for(int j=1;j<=i;j++){
-            printf("*");
-            
-        
-    }printf("\n");
-    
-    }}
 
 
+//13
+// #include <stdio.h>
+// int main(){
+//     int n=4;
+//     for(int i=n;i>=1;i--){
+//         for(int j=1;j<=i;j++){
+//             printf("*");
+            
+//         }
+//         for(int k=1;k<=(n-i);k++){
+//         printf(" ");}
+//         for(int k=1;k<=(n-i);k++){
+//         printf(" ");}
+        
+        
+//         for(int j=1;j<=i;j++){
+//             printf("*");
+            
+        
+//     }printf("\n");
+    
+    
+//     }for(int i=1;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             printf("*");
+            
+//         }
+//         for(int k=1;k<=(n-i);k++){
+//         printf(" ");}
+//         for(int k=1;k<=(n-i);k++){
+//         printf(" ");}
+        
+        
+//         for(int j=1;j<=i;j++){
+//             printf("*");
+            
+        
+//     }printf("\n");
+    
+//     }}
+
+
+
+
+//14
 // #include <stdio.h>
 // int main(){
 //     int n=4;
