@@ -1,0 +1,10 @@
+*.key
+*.pem
+key
+key.pub
+build/
+cmake-build*/
+*.o
+*.out
+.vscode/
+.idea/
