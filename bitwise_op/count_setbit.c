@@ -10,7 +10,7 @@ int main(){
       }n=n/2;
 
     }
-    printf("%d/n",count);
+    printf("%d\n",count);
 
 
 
