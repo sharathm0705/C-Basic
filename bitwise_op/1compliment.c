@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int n;
+    unsigned n;
     scanf("%d",&n);
     n=~n;
-    printf("%d",n);
+    printf("%d",(unsigned int) n);
 }

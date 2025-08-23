@@ -16,7 +16,6 @@ int main(){
       }else if(r==1)
       printf("Set Bit");
       else
-      printf("not set");
     
 
 
