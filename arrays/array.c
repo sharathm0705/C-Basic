@@ -32,16 +32,102 @@
 // }
 
 
+
+
+//Sum of Array:
+// #include <stdio.h>
+// int main(){
+//     int n,sum=0;
+//     printf("Enter Size of Array : ");
+//     scanf("%d",&n);
+//     int a[n];
+//     for(int i=0;i<n;i++){
+//         scanf("%d",&a[i]);
+//     }for(int i=0;i<n;i++){
+//         sum+=a[i];
+//     }printf("%d\n",sum);
+//     return 0;
+// }
+
+
+
+
+//Average :
+// #include <stdio.h>
+// int main(){
+//     int n,sum=0;
+//     printf("Enter Size of Array : ");
+//     scanf("%d",&n);
+//     int a[n];
+//     for(int i=0;i<n;i++){
+//         scanf("%d",&a[i]);
+//     }for(int i=0;i<n;i++){
+//         sum+=a[i];
+//     }printf("%f\n",sum*1.0/n);
+//     return 0;
+// }
+
+
+
+//Number of Even and Odd numbers in an Array :
+// #include <stdio.h>
+// int main(){
+//     int n,even=0,odd=0;
+//     printf("Enter Size of Array : ");
+//     scanf("%d",&n);
+//     int a[n];
+//     for(int i=0;i<n;i++){
+//         scanf("%d",&a[i]);
+//     }for(int i=0;i<n;i++){
+//         if(a[i]%2==0){
+//             even++;
+//         }else
+//             odd++;
+//     }printf("Even : %d\n",even);
+//     printf("Odd : %d\n",odd);
+//     return 0;
+// }
+
+
+// #include <stdio.h>
+// int main(){
+//     int rev=0;
+//     int a[]={123,121,4334,261,656};
+//     int n=sizeof(a)/sizeof(a[0]);
+    
+//     for(int i=0;i<n;i++){
+//      int temp=a[i],rev=0;
+//         while(temp>0){
+            
+//          rev=rev*10+temp%10;
+//          temp=temp/10;
+        
+//         }if(rev==a[i]){
+//             printf("%d\t",a[i]);
+//          }
+//     }
+//     return 0;
+// }
+
+
+
 #include <stdio.h>
 int main(){
-    int n,sum=0;
-    printf("Enter Size of Array : ");
-    scanf("%d",&n);
-    int a[n];
+    int a[]={10,5,17,6,4,8,11,13};
+    int n=sizeof(a)/sizeof(a[0]);
+    
     for(int i=0;i<n;i++){
-        scanf("%d",&a[i]);
-    }for(int i=0;i<n;i++){
-        sum+=a[i];
-    }printf("%f\n",sum*1.0/n);
+     int flag=1;
+        for(int j=2;j<a[i];j++){
+        if((a[i]%j)==0){
+            flag=0;
+            break;
+        }
+    }if(flag==1){
+        printf("%d\n",a[i]);
+    }
+    }
     return 0;
 }
+
+
