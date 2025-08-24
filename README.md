@@ -13,6 +13,7 @@ Each file demonstrates a different concept like loops, conditions, operators, et
 - ternaryop.c → Ternary operator usage
 - unitplace.c → Unit digit operations
 - while1.c, while2.c → While loop examples
-- pattern_1.c → Different pattern examples
-- and more
+- pattern_1.c → Different pattern printing examples
+- arrays → Problems based on Array
+- bitwise_op → Problems on bitwise operation
 
