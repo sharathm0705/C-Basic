@@ -8,6 +8,8 @@
 // }
 
 
+
+
 // #include <stdio.h>
 // int main(){
 //     int a[5];
@@ -16,6 +18,8 @@
 //     printf("%d",sizeof(a));
 //     return 0;
 // }
+
+
 
 
 // #include <stdio.h>
@@ -69,6 +73,7 @@
 
 
 
+
 //Number of Even and Odd numbers in an Array :
 // #include <stdio.h>
 // int main(){
@@ -87,6 +92,10 @@
 //     printf("Odd : %d\n",odd);
 //     return 0;
 // }
+
+
+
+
 
 //Check list the palindrome numbers in an Array :
 // #include <stdio.h>
@@ -108,6 +117,8 @@
 //     }
 //     return 0;
 // }
+
+
 
 
 //To list the prime numbers in an array : 
@@ -132,6 +143,7 @@
 
 
 
+
 //Linear Search :
 // #include <stdio.h>
 // int main(){
@@ -150,24 +162,54 @@
 
 // }
 
+
+
+
 //Binary Search :(Binary search is possible only in sorted array)
+// #include <stdio.h>
+// int main(){
+// int a[]={2,3,45,8,9,14,21,35,45,57,68,74,87};
+// int n=sizeof(a)/sizeof(a[0]);
+// int key,left=0,right=n-1,mid=0;
+// scanf("%d",&key);
+// while(left<=right){
+//     mid=(left+right)/2;
+//     if(a[mid]==key){
+//         printf("%d\n",mid);
+//         return 0;
+//     }else if(a[mid]>key){
+//         right=mid-1;
+//     }else
+//         left=mid+1;
+// }
+//     printf("-1");
+    
+// }
+
+
+
+
+//To check wether all the numbers in an array is Palindrome :
 #include <stdio.h>
 int main(){
-int a[]={2,3,45,8,9,14,21,35,45,57,68,74,87};
-int n=sizeof(a)/sizeof(a[0]);
-int key,left=0,right=n-1,mid=0;
-scanf("%d",&key);
-while(left<=right){
-    mid=(left+right)/2;
-    if(a[mid]==key){
-        printf("%d\n",mid);
-        return 0;
-    }else if(a[mid]>key){
-        right=mid-1;
-    }else
-        left=mid+1;
-}
-    printf("-1");
+    int rev=0,flag=0;
+    int a[]={123321,121,4334,261162,656};
+    int n=sizeof(a)/sizeof(a[0]);
     
-
+    for(int i=0;i<n;i++){
+     int temp=a[i],rev=0;
+        while(temp>0){
+            
+         rev=rev*10+temp%10;
+         temp=temp/10;
+        
+        }if(rev!=a[i]){
+            flag=1;
+            break;
+         }
+    }if(flag==0){
+        printf("1");
+    }else
+    printf("0");
+    return 0;
 }
