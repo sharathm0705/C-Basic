@@ -131,3 +131,43 @@
 // }
 
 
+
+//Linear Search :
+// #include <stdio.h>
+// int main(){
+// int a[]={2,4,1,65,34,12};
+// int n=sizeof(a)/sizeof(a[0]);
+// int key;
+// scanf("%d",&key);
+// for(int i=0;i<n;i++){
+//     if(a[i]==key){
+//         printf("%d",i);
+//         return 0;
+//     }
+// }
+//     printf("-1");
+    
+
+// }
+
+//Binary Search :(Binary search is possible only in sorted array)
+#include <stdio.h>
+int main(){
+int a[]={2,3,45,8,9,14,21,35,45,5,68,74,87};
+int n=sizeof(a)/sizeof(a[0]);
+int key,left=0,right=n-1,mid=0;
+scanf("%d",&key);
+for(int i=0;i<n;i++){
+    mid=(left+right)/2;
+    if(a[i]==key){
+        printf("%d\n",i);
+        return 0;
+    }else if(a[mid]>key){
+        right=mid-1;
+    }else
+        left=mid+1;
+}
+    printf("-1");
+    
+
+}
