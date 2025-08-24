@@ -88,7 +88,7 @@
 //     return 0;
 // }
 
-
+//Check list the palindrome numbers in an Array :
 // #include <stdio.h>
 // int main(){
 //     int rev=0;
@@ -110,24 +110,24 @@
 // }
 
 
-
-#include <stdio.h>
-int main(){
-    int a[]={10,5,17,6,4,8,11,13};
-    int n=sizeof(a)/sizeof(a[0]);
+//To list the prime numbers in an array : 
+// #include <stdio.h>
+// int main(){
+//     int a[]={10,5,17,6,4,8,11,13};
+//     int n=sizeof(a)/sizeof(a[0]);
     
-    for(int i=0;i<n;i++){
-     int flag=1;
-        for(int j=2;j<a[i];j++){
-        if((a[i]%j)==0){
-            flag=0;
-            break;
-        }
-    }if(flag==1){
-        printf("%d\n",a[i]);
-    }
-    }
-    return 0;
-}
+//     for(int i=0;i<n;i++){
+//      int flag=1;
+//         for(int j=2;j<a[i];j++){
+//         if((a[i]%j)==0){
+//             flag=0;
+//             break;
+//         }
+//     }if(flag==1){
+//         printf("%d\n",a[i]);
+//     }
+//     }
+//     return 0;
+// }
 
 
