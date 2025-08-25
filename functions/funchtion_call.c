@@ -1,3 +1,5 @@
+//Simple example for function call :
+
 #include <stdio.h>
 void nami(void);
 void robin(void);
