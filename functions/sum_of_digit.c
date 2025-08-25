@@ -1,3 +1,5 @@
+//To print the sum of digit in functions :
+
 #include <stdio.h>
 void sum_of_digit();
 int main(){
