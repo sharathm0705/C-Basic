@@ -16,4 +16,5 @@ Each file demonstrates a different concept like loops, conditions, operators, et
 - pattern_1.c → Different pattern printing examples
 - arrays → Problems based on Array
 - bitwise_op → Problems on bitwise operation
+- functions → Problems on functions
 
