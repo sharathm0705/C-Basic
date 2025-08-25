@@ -16,6 +16,4 @@ int reverse(int n){
         n=n/10;
     }
     return rev;
-    
-    
 }
