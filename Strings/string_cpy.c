@@ -10,7 +10,6 @@ int main(){
     str2[i]=str1[i];
     str2[6]='\0';
     printf("%s",str2);
-
     return 0;
 }
 
