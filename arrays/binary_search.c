@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 int main(){
-int a[]={2,3,45,8,9,14,21,35,45,57,68,74,87};
+int a[]={2,3,8,9,14,21,35,45,57,68,74,87};
 int n=sizeof(a)/sizeof(a[0]);
 int key,left=0,right=n-1,mid=0;
 scanf("%d",&key);
