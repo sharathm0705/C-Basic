@@ -1,6 +1,6 @@
+//Total sum of Digits
 #include <stdio.h>
 int main(){
-    //Total sum of Digits
 int sum=0,n;
 scanf("%d",&n);
 while(n>0){

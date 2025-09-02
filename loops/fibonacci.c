@@ -1,3 +1,4 @@
+//To print fibonacci of n number :
 #include <stdio.h>
 int main(){
     int n,first,second,third;
